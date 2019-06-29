@@ -19,7 +19,7 @@ public class InputHandler implements KeyListener, FocusListener, MouseListener, 
 	@Override
 	public void mouseDragged(MouseEvent e) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override

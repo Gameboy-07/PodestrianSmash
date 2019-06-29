@@ -1,8 +1,8 @@
-package PodSmash;
+package metrics;
 
 public class Vector {
 
-	public double dx,dy;
+	private double dx,dy;
 	
 	public Vector(double dx, double dy){
 		this.dx = dx;
@@ -22,6 +22,12 @@ public class Vector {
 		return (v.dx*dy) - (v.dy*dx);
 	}
 	
+	public double getDX(){
+		return dx;
+	}
 	
+	public double getDY(){
+		return dy;
+	}
 	
 }
